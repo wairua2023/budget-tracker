@@ -1,33 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Budget Tracker</title>
-    
+    <title>My Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> My Budget Tracker</h1>
-<p> Track your income and expenses in one place.</p>
 
-<div id="Add expense">
-<h2> Add Expense</h2>
-<ol>
-    <li><input type="text" placeholder=" Expense name"></li>
-    <li><input type="number" placeholder=" Amount"></li>
-    <li><input type="text" placeholder=" Category"></li>
-</ol>
-</div>
-<div id="class="placeholder">
-<h2> Your Expense</h2>
-<ol>
-  <li><input type="text" placeholder=" No expenses yet"></li>
-    <li><input type="number" placeholder=" No expenses yet"></li>
-    <li><input type="text" placeholder=" No expenses yet"></li>  
+    <h1>My Budget Tracker</h1>
+    <p>Track your income and expenses in one place.</p>
 
-</ol>
-</div>
+    <div class="add-expense-section">
+        <h2>Add Expense</h2>
+        <input type="text" placeholder="Expense name">
+        <input type="number" placeholder="Amount">
+        <input type="text" placeholder="Category">
+    </div>
+
+    <div class="expenses-section" id="expense-list">
+        <h2>Your Expenses</h2>
+        <p>No expenses yet</p>
+    </div>
 
 </body>
-<link rel="stylesheet" href="styles.css">
 </html>
